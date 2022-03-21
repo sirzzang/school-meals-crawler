@@ -3,7 +3,7 @@ import json
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-from config import SCHOOL_INFO_URL
+from src.config import SCHOOL_INFO_URL
 
 
 # 전국 학교 정보 지역 코드

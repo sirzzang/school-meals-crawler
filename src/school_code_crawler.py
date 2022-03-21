@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from config import NEIS_SCHOOL_CODES_URL, EXCEL_DOWNLOAD_PATH
+from src.config import NEIS_SCHOOL_CODES_URL, EXCEL_DOWNLOAD_PATH
 
 # 학교 이름, 학교 코드
 df = pd.read_csv("data/school_info.csv", indef=False)
